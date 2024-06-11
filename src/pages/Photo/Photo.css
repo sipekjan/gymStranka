@@ -1,0 +1,29 @@
+.Photo-content {
+    width: 60vw;
+    top: 20vh;
+    left: 50vw;
+    position: absolute;
+    transform: translate(-50%, 0);
+    text-align: center;
+    color: white;
+    padding: 2vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Photo-content img {
+    max-width: calc(100%/3 - 34px);
+    margin-left: 34px;
+    height: auto;
+}
+
+@media screen and (max-width: 1150px) {
+    .Photo-content {
+        top: 50vh;
+        flex-direction: column;
+    }
+
+    .Photo-content img {
+        max-width: 80%;
+    }
+  }

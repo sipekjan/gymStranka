@@ -1,0 +1,15 @@
+.Links-list {
+    top: 1.25vh;
+    position: absolute;
+    right: 50px;
+    display: flex;
+}
+
+.Links-img {
+    width: 40px;
+    margin-left: 10px;
+}
+
+.Links-img:hover {
+    cursor: pointer;
+}

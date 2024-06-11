@@ -1,0 +1,26 @@
+.Contact-content {
+    padding: 2vw;
+    position: absolute;
+    top: 30vh;
+    left: 50%;
+    transform: translate(-50%, 0);
+    color: white;
+    background-color: black;
+    border-radius: 2vw;
+    box-shadow: 0.5vw 0.5vw orange;
+}
+
+
+.Contact-title {
+    font-size: 55px;
+}
+
+.Contact-subtitle {
+    font-size: 25px;
+}
+
+@media screen and (max-width: 1150px) {
+    .Contact-content {
+        top: 50vh;
+    }
+  }

@@ -1,0 +1,43 @@
+.Price-content {
+    width: 50vw;
+    position: absolute;
+    top: 50vh;
+    left: 50vw;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    padding: 2vw;
+}
+
+
+.Price-title {
+    font-size: 65px;
+}
+
+.Price-subtitle {
+    text-align: left;
+    margin-top: 50px;
+    font-size: 35px;
+    overflow-wrap: break-word;
+}
+.Price-time{
+    padding: 2vw;
+    text-align: center;
+    margin-top: 3vw;
+    background-color: black;
+    border-radius: 2vw;
+    box-shadow: 0.5vw 0.5vw orange;
+}
+.Price-text{
+    padding: 2vw;
+    background-color: black;
+    border-radius: 2vw;
+    box-shadow: 0.5vw 0.5vw orange;
+    text-align: center;
+}
+
+@media screen and (max-width: 1150px) {
+    .Price-content {
+      top: 800px;
+    }
+  }

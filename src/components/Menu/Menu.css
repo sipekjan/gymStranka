@@ -1,0 +1,31 @@
+.Menu-list {
+  top: 2vh;
+  position: absolute;
+  display: flex;
+  margin-left: 50%;
+  transform: translate(-50%, 0);
+  text-align: center;
+}
+
+.Menu-list a {
+  color: white;
+  text-decoration: none;
+}
+
+.Menu-list a:hover {
+  color: orange;
+}
+
+.Menu-space {
+  width: 4px;
+  margin-left: 4px;
+  margin-right: 4px;
+  background-color: white;
+}
+
+@media screen and (max-width: 1150px) {
+  .Menu-list {
+    flex-direction: column;
+    margin-top: 140px;
+  }
+}
